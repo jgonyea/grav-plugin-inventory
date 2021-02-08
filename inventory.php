@@ -78,4 +78,20 @@ class InventoryPlugin extends Plugin
         $types->scanTemplates($locator->findResource('plugin://' . $this->name . '/templates'));
     }
 
+  /**
+   * Returns listing of users.
+   *
+   * @return array
+   */
+    public static function getInventoryUsers()
+    {
+        $options_array = [
+            "Option 1" => "Option 1",
+        ];
+        $users = Grav::instance()['users'];
+        $inventory_users = $users->find('inventoryAdmin', 'group');
+        return $options_array;
+    }
+
+
 }

@@ -3,5 +3,20 @@ en:
     ADMIN:
       CONTENT:
         TAB_TITLE: General
-        SOFTWARE_TITLE: Software
+        ASSET_TITLE: Assets
+        SOFTWARE: 
+          CONTENT_TITLE: Software
+          LICENSE_KEY: License Key
+      PURCHASE:
+        TAB_TITLE: Purchase Information
+        STATUS: Current License Status
+        PURCHASE_DATE: Purchase Date
+        EXPIRATION_DATE: Expiration Date
+        PURCHASE_DETAILS: Purchase Details
+      PEOPLE:
+        TAB_TITLE: People
+        CREATED_BY: Created By
+        ASSIGNED_TO: Assigned To
+        
+
         
